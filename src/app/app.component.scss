@@ -7,7 +7,7 @@
   margin: 60px auto 200px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 10px;
   background-color: #fcfcfc;
@@ -297,20 +297,3 @@
   justify-content: space-evenly;
   border-top: 6px solid #fcfcfc;
 }
-
-.float-right {
-  float: right;
-}
-
-.shadow {
-  box-shadow: -1px 2px 27px -3px rgba(15, 31, 33, 0.48);
-  -webkit-box-shadow: -1px 2px 27px -3px rgba(15, 31, 33, 0.48);
-  -moz-box-shadow: -1px 2px 27px -3px rgba(15, 31, 33, 0.48);
-}
-
-
-
-
-
-
-
