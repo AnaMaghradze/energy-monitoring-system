@@ -6,6 +6,7 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  snapshot_url = 'https://snapshots-origin.grafana.net/dashboard/snapshot/PDuiWNW0ha6Hu1ngf9CzVwEEHYY0lhbP?orgId=2';
   goals = [
     {
       title: 'fixing',
@@ -19,6 +20,5 @@ export class AppComponent {
       title: 'saving',
       description: 'Save time and reduce unexpected costs'
     }
-  ]
-
+  ];
 }

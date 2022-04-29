@@ -12,6 +12,7 @@
   border-radius: 10px;
 
   .navbar {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 20px 70px;
@@ -21,7 +22,7 @@
 
       li {
         float: left;
-        padding: 10px;
+        padding: 10px 0;
         border-radius: 5px;
         font-size: 1.3vw;
         font-weight: bold;
@@ -33,7 +34,7 @@
         }
 
         span {
-          padding: 0 10px 0 20px;
+          padding: 0 20px;
         }
       }
     }
@@ -61,12 +62,12 @@
 
   & > div.image-wrapper {
     content: "";
-    width: 90%;
+    width: 70%;
     height: 100%;
     position: relative;
 
     img {
-      width: 85%;
+      width: 100%;
       min-width: 200px;
       position: absolute;
       top: 50px;
@@ -191,6 +192,19 @@
   }
 }
 
+#contact {
+  height: fit-content;
+  padding: 20px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 6px solid #fcfcfc;
+  text-align: center;
+  small{
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .container {
     height: 100vh;
@@ -210,10 +224,6 @@
       ul {
         padding: 0;
         font-size: 16px;
-
-        li > span {
-          padding: 0 5px 0 15px;
-        }
       }
     }
 
@@ -269,9 +279,8 @@
         li {
           padding: 0 2px;
           font-size: 16px;
-
           span {
-            padding: 0 0 0 5px;
+            padding: 0 5px;
           }
         }
       }
@@ -285,16 +294,10 @@
   }
 }
 
-#contact {
-  height: fit-content;
-  padding: 20px;
+.email {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  border-top: 6px solid #fcfcfc;
-  small{
-    padding: 10px;
-  }
+  gap: 5px;
 }
 
 .float-right {
