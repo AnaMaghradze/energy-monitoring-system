@@ -8,11 +8,12 @@
   </div>
   <div>
     <h1> Energy Monitoring System </h1>
-    <p>Easily Monitor and analyze the energy of various electrical devices.</p>
+    <p>Easily Monitor And Analyze The Energy Of Various Electrical Devices.</p>
   </div>
   <div class="image-wrapper">
     <a [href]="snapshot_url" target="_blank">
-      <img class="shadow move-front" src="/energy-monitoring-system/assets/images/dashboard-light.png" alt="Energy Monitoring System">
+      <img class="shadow move-front" src="/energy-monitoring-system/assets/images/dashboard-light.png"
+           alt="Energy Monitoring System">
     </a>
   </div>
 </div>
@@ -23,8 +24,9 @@
     <div>
       <img src="/energy-monitoring-system/assets/images/pzem_1.jpg" alt="Sensor" class="float-right">
       <p>
-        Our product enables us to measure and monitor current, voltage, frequency, and power through the system.
-        In order to collect the real-time data on energy usage, we use corresponding sensors.
+        Our product enables user to continuously monitor current, voltage, power, energy, frequency, and power factor
+        through the system.
+        In order to collect the real-time data on energy usage, we use PZEM-004T sensors.
       </p>
     </div>
   </div>
@@ -33,9 +35,19 @@
     <div>
       <img src="/energy-monitoring-system/assets/images/iot.png" alt="IOT" class="float-right">
       <p>
-        The information received from sensors is sent to IoT server through WiFi using the ESP32 module.
-        The data is processed by the specific algorithms and stored in database.
-        We have selected a Influxdb database that is designed specifically for the time-series data.
+        The information received from sensors is sent to IoT server through WiFi using the ESP-32S modules.
+        The data is processed by the specific algorithms and stored in databases. This is handled by MAXIOT - it
+        makes this process much more convenient and efficient.
+      </p>
+    </div>
+  </div>
+  <div class="tool">
+    <h3>InfluxDB</h3>
+    <div>
+      <img src="/energy-monitoring-system/assets/images/influx.png" alt="Database" class="float-right">
+      <p>
+        We use an InfluxDB that is an open source database and was designed specifically for the time-series data.
+        Influx can cope with a large amount of data and maintain a normal performance at the same time.
       </p>
     </div>
   </div>

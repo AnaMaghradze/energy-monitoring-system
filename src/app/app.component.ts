@@ -10,15 +10,15 @@ export class AppComponent {
   goals = [
     {
       title: 'fixing',
-      description: 'Simplify the detection of faulty areas and their causes'
+      description: 'Simplify The Detection Of Faulty Areas'
     },
     {
       title: 'wellbeing',
-      description: 'Prevent system failures and improve system well-being'
+      description: 'Prevent System Failures And Improve System Well-being'
     },
     {
       title: 'saving',
-      description: 'Save time and reduce unexpected costs'
+      description: 'Save Time And Reduce Unexpected Costs'
     }
   ];
 }
