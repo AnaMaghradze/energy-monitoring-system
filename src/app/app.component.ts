@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  snapshot_url = 'https://snapshots-origin.grafana.net/dashboard/snapshot/PDuiWNW0ha6Hu1ngf9CzVwEEHYY0lhbP?orgId=2';
+  snapshot_url = 'http://142.93.245.131:3000/d/pXFVdhy7k/energy-monitoring-system?orgId=1&from=1652682166936&to=1652703766936';
   goals = [
     {
       title: 'fixing',
